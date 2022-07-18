@@ -1,6 +1,8 @@
 # cookie-stand
+
 Lab 06: Salmon Cookies
 created initial repository
+
 HTML:
 
 created basic structure of page in HTML with four sections about my short bio, education hx,
@@ -15,7 +17,7 @@ Jose Gonzalez
 Links and resources
 collaboration with Adrian Butler Jr, Brandon, TA
 
-https://github.com/codefellows/seattle-code-201d88/tree/main/class-02/inclass-demo
+(reference: "https://github.com/codefellows/seattle-code-201d88/tree/main/class-02/inclass-demo")
 
 Reflections
 How did this go, overall?
