@@ -26,3 +26,13 @@ What observations or questions do you have about what you’ve learned so far?
 shacky fundamentals on functions in js
 How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 7 hours 12 plus was my guess
+
+## lab 07: Constructors
+
+## Author
+
+Jose Gonzalez
+
+## Links and resources
+
+## Reflections
