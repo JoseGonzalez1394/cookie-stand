@@ -1,25 +1,25 @@
 # cookie-stand
 
-Lab 06: Salmon Cookies
-created initial repository
+## Lab 06: Salmon Cookies
 
-HTML:
+created initial repository and page build
 
-created basic structure of page in HTML with four sections about my short bio, education hx,
-proffessional hx and goals
-added git hub link in footer and copyright sign
-js:
+## Author
 
-created custom greeter with user name included
-created 5 questions for user to learn more about me with yes or no answers and feedback
-Author:
 Jose Gonzalez
-Links and resources
-collaboration with Adrian Butler Jr, Brandon, TA
+
+## Links and resources
+
+collaboration with Adrian Butler Jr, Tyler Main, Robert Shepley, TA
 
 (reference: "https://github.com/codefellows/seattle-code-201d88/tree/main/class-02/inclass-demo")
+(reference:"https://github.com/JoseGonzalez1394/about-me/blob/main/README.md")
+(reference: "https://github.com/codefellows/seattle-code-201d88/tree/main/class-06/inclass-demo")
+(reference: "https://github.com/codefellows/seattle-code-201d88/blob/main/class-06/lecture-notes.md")
+(reference: "https://replit.com/@arpatterson31/Class-201d88-OBJECTS#index.js")
 
-Reflections
+## Reflections
+
 How did this go, overall?
 
 It went surprisingly well and faster than I thought.
