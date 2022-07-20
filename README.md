@@ -35,4 +35,12 @@ Jose Gonzalez
 
 ## Links and resources
 
+TA, Daniel, Adrain, Instructor
+
 ## Reflections
+How did this go, overall?
+getting there just need more js practice
+What observations or questions do you have about what you’ve learned so far?
+shacky fundamentals on functions in js
+How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+5 hours, 8
