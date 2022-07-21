@@ -1,56 +1,64 @@
-/* head {display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 1em auto;
-  width: 40%;
-  border: 3px solid rgb(202, 205, 202);
-  padding: 10px;
-  box-shadow: 5px 5px 20px 5px #d89a7f;
-
-} */
-
 body {
   background: url("https://images.unsplash.com/photo-1599651828694-24ed0c4d5fc2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
   background-position: center;
   background-repeat: none;
   background-size: cover;
-  color: rgb(222, 223, 176);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1 {
-  margin: 40px 200px 50px 300px;
-  width: 50%;
+  margin: 30px 900px 30px;
+  width: 700px;
   border: 3px solid rgb(202, 205, 202);
-  padding: 10px;
+  padding: inherit;
   box-shadow: 5px 5px 20px 5px #d89a7f;
-  text-align: center;
   font-size: 40px;
   color: rgb(222, 223, 176);
   background-color: rgb(116, 90, 90);
-  border-spacing: 15px 50px;
-  border-collapse: separate;
+  display: flex;
+  align-items: center;
 }
+
 
 #mascot {
-  margin: 40px 1200px 50px 480px;
+  margin: 30px 30px;
   background-position: center;
   background-color: antiquewhite;
-  height: 200px;
-  display: block;
-  align-items: center;
-  justify-content: center;
+  height: 100px;
   border: 3px solid rgb(202, 205, 202);
   border-color: wheat;
   box-shadow: 5px 5px 20px 5px #d89a7f;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
 }
 
-#cookie-GIF{
-  margin: 40px 80px 80px 600px;
+#CSS {
+  margin: 30px 1130px 30px;
+  background-position: center;
+  background-color: antiquewhite;
+  height: 200px;
+  display: block;
+  border: 3px solid rgb(202, 205, 202);
+  border-color: wheat;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  margin: 30px 200px 30px 195px;
+  width: 80px;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 10px;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  background-color: rgb(116, 90, 90);
+  font-size: 20px;
+  color: rgb(222, 223, 176);
+}
+
+#cookieCutter {
+  margin: 30px 520px 30px;
   background-position: center;
   background-color: antiquewhite;
   height: 200px;
@@ -64,9 +72,13 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: antiquewhite;
 }
-h2 {
-  margin: 40px 8100px 50px 360px;
+
+section {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  margin: auto;
   width: 50%;
   border: 3px solid rgb(202, 205, 202);
   padding: 10px;
@@ -79,21 +91,189 @@ h2 {
   border-collapse: separate;
 }
 
-#sales-table {
-  margin: 40px 8px 50px 180px;
-  width: 80%;
+h2 {
+  margin: 30px 620px 30px;
+  width: 50%;
   border: 3px solid rgb(202, 205, 202);
   padding: 10px;
-  font-size: 15px;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
   text-align: center;
+  font-size: 40px;
+  color: rgb(222, 223, 176);
   background-color: rgb(116, 90, 90);
+  border-spacing: 15px 50px;
+  border-collapse: separate;
+}
+
+#family {
+  margin: 30px 450px 30px;
+  background-position: center;
+  background-color: antiquewhite;
+  height: 200px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(202, 205, 202);
+  border-color: wheat;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#fish {
+  margin: 30px 520px 30px;
+  background-position: center;
+  background-color: antiquewhite;
+  height: 200px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(202, 205, 202);
+  border-color: wheat;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#cookieFish {
+  margin: 30px 480px 30px;
+  background-position: center;
+  background-color: antiquewhite;
+  height: 200px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(202, 205, 202);
+  border-color: wheat;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#uglyFish {
+  margin: auto;
+  background-position: center;
+  background-color: antiquewhite;
+  height: 200px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(202, 205, 202);
+  border-color: wheat;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#fishShirt {
+  margin: 30px 520px 30px;
+  background-position: center;
+  background-color: antiquewhite;
+  height: 200px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgb(202, 205, 202);
+  border-color: wheat;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+p {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 10px;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  font-size: 40px;
+  color: rgb(222, 223, 176);
+  background-color: rgb(116, 90, 90);
+  border-spacing: 15px 50px;
+  border-collapse: separate;
+}
+
+button {
+  transition: 350ms;
+  margin: 30px 400px 30px;
+  height: 100px;
+  width: 140px;
+  overflow: auto;
+  background-color: yellowgreen;
+  color: white;
+  scrollbar-base-color: gold;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+#buttonStyle {
+  border: 0;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #d89a7f;
+  background-image: linear-gradient(to top left,
+      rgba(0, 0, 0, .2),
+      rgba(0, 0, 0, .2) 30%,
+      rgba(0, 0, 0, 0));
+  border: 3px solid rgb(202, 205, 202);
+  border-color: wheat;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+}
+
+#buttonStyle:hover {
+  background-color: #ba921c
+}
+
+#buttonStyle:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#textScroll {
+  border: none;
+  padding: 5px;
+  font: 24px/36px sans-serif;
+  width: 50%;
+  height: 200px;
+  overflow: scroll;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d89a7f;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ba921c;
 }
 
 footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 40px 8100px 50px 360px;
+  margin: 30px 750px 30px;
   width: 39%;
   border: 3px solid rgb(202, 205, 202);
   padding: 20px;
@@ -102,4 +282,84 @@ footer {
   color: rgb(222, 223, 176);
   background-color: rgb(116, 90, 90);
   box-shadow: 5px 5px 20px 5px #d89a7f;
+}
+
+#sales-table {
+  margin: 40px 8px 50px 20px;
+  width: 50%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgb(116, 90, 90);
+  font-family: Georgia, serif;
+  border: 4px solid #84A411;
+  background-color: #C3A918;
+  width: 400px;
+  text-align: center;
+  border-collapse: collapse;
+  border: 3px solid rgb(202, 205, 202);
+  border-color: wheat;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+}
+
+#sales-table td,
+#sales-table th {
+  border: 1px solid #555555;
+  padding: 5px 10px;
+}
+
+#sales-table tbody td {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#sales-table tr:nth-child(even) {
+  background: #C9B622;
+}
+
+#sales-table td:nth-child(even) {
+  background: #84A411;
+}
+
+#sales-table thead {
+  background: #C9B622;
+  border-bottom: 10px solid #A46E18;
+}
+
+#sales-table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+  border-left: 2px solid #84A411;
+}
+
+#sales-table thead th:first-child {
+  border-left: none;
+}
+
+#sales-table tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000000;
+  background: #A46E18;
+  border-top: 1px solid #D5C83D;
+}
+
+#sales-table tfoot td {
+  font-size: 13px;
+}
+
+#sales-table tfoot .links {
+  text-align: right;
+}
+
+#sales-table tfoot .links a {
+  display: inline-block;
+  background: #FFFFFF;
+  color: #398AA4;
+  padding: 2px 8px;
+  border-radius: 5px;
 }

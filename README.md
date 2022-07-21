@@ -35,7 +35,13 @@ Jose Gonzalez
 
 ## Links and resources
 
-TA, Daniel, Adrain, Instructor
+TA, Daniel, Adrain, Instructor, a village
+
+https://html.com/tags/button/#:~:text=The%20element%20is%20used,the%20button%20with%20a%20form.
+
+https://github.com/JoseGonzalez1394/wireframe-exercise/blob/main/style.css
+
+https://giphy.com/gifs/frustrated-annoyed-programming-yYSSBtDgbbRzq
 
 ## Reflections
 How did this go, overall?
