@@ -2,6 +2,7 @@
 
 let dataSection = document.getElementById('sales-data');
 let mainTableElem = document.getElementById('sales-table');
+let mystoreForm = document.getElementById('storeForm');
 
 // grabbed from MDN docs
 function randomCookieSale(min, max) {
@@ -47,28 +48,27 @@ Store.prototype.calculate = function () {
   }
 }
 
-Store.prototype.v =
 
-  Store.prototype.render = function () {
+Store.prototype.render = function () {
 
-    this.calculate();
+  this.calculate();
 
-    let row1 = document.createElement('tr');
-    mainTableElem.appendChild(row1);
+  let row1 = document.createElement('tr');
+  mainTableElem.appendChild(row1);
 
-    let cityCell = document.createElement('td');
-    cityCell.textContent = this.location;
-    row1.appendChild(cityCell);
+  let cityCell = document.createElement('td');
+  cityCell.textContent = this.location;
+  row1.appendChild(cityCell);
 
-    for (let i = 0; i < storeHours.length; i++) {
-      let td = document.createElement('td');
-      td.textContent = this.hourlyCookieSale[i];
-      row1.appendChild(td);
-    }
-    let totalCookieCell = document.createElement('td');
-    totalCookieCell.textContent = this.totalCookiesSold;
-    row1.appendChild(totalCookieCell);
+  for (let i = 0; i < storeHours.length; i++) {
+    let td = document.createElement('td');
+    td.textContent = this.hourlyCookieSale[i];
+    row1.appendChild(td);
   }
+  let totalCookieCell = document.createElement('td');
+  totalCookieCell.textContent = this.totalCookiesSold;
+  row1.appendChild(totalCookieCell);
+}
 
 function makeHeader() {
   let row1 = document.createElement('tr');
@@ -111,7 +111,7 @@ renderstore();
 // function to render bottom row of table 
 function makeFooter() {
   // make row give content append to table
-  let tableFooterRowElement = document.createElement('tr');
+  let tableFooterRowElement = document.createElement('tfoot');
   tableFooterRowElement.textContent = 'Total';
   mainTableElem.appendChild(tableFooterRowElement);
   // loop through hours and location 
@@ -139,3 +139,35 @@ function makeFooter() {
 }
 // render footer function
 makeFooter();
+
+function removeFooter(){
+  let parent = document.getElementsById("sales-table");
+  let child = document.getElementById("tfoot");
+  parent.removeChild(child);
+}
+
+function handleSubmit(event) {
+  event.preventDefault();
+  
+  let location = event.target.storeLocation.value;
+  let minCust = +event.target.storeMinCust.value;
+  let maxCust = +event.target.storeMaxCust.value;
+  let avgCookieSale = +event.target.storeAvgCookieSale.value;
+
+  let newStore = new Store(location, minCust, maxCust, avgCookieSale);
+
+  newStore.get();
+  newStore.calculate();
+  newStore.render();
+  removeFooter();
+  makeFooter();
+
+  // HINT FOR YOUR LAB - remove your footer and recreate it
+
+  // resets input fields after submission
+  mystoreForm.reset();
+}
+
+
+// ****** STEP 2: ATTACH EVENT LISTENER: type of event, and our callback function or event handler ******
+mystoreForm.addEventListener('submit', handleSubmit);

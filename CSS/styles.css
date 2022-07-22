@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  margin: 30px 900px 30px;
+  margin: 30px 400px 30px;
   width: 700px;
   border: 3px solid rgb(202, 205, 202);
   padding: inherit;
@@ -32,7 +32,7 @@ h1 {
 }
 
 #CSS {
-  margin: 30px 1130px 30px;
+  margin: 30px 620px 30px;
   background-position: center;
   background-color: antiquewhite;
   height: 200px;
@@ -44,10 +44,12 @@ h1 {
   background-color: antiquewhite;
 }
 
-li {
-  display: inline-block;
+
+nav {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  margin: 30px 200px 30px 195px;
+  margin: 30px 700px 30px;
   width: 80px;
   border: 3px solid rgb(202, 205, 202);
   padding: 10px;
@@ -58,7 +60,7 @@ li {
 }
 
 #cookieCutter {
-  margin: 30px 520px 30px;
+  margin: auto;
   background-position: center;
   background-color: antiquewhite;
   height: 200px;
@@ -68,11 +70,6 @@ li {
   border: 3px solid rgb(202, 205, 202);
   border-color: wheat;
   box-shadow: 5px 5px 20px 5px #d89a7f;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: antiquewhite;
 }
 
 section {
@@ -92,7 +89,7 @@ section {
 }
 
 h2 {
-  margin: 30px 620px 30px;
+  margin: 30px 365px 30px;
   width: 50%;
   border: 3px solid rgb(202, 205, 202);
   padding: 10px;
@@ -105,25 +102,35 @@ h2 {
   border-collapse: separate;
 }
 
+h3{
+  margin: 30px 250px 30px;
+  width: 25%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: inherit;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  font-size: 40px;
+  color: rgb(222, 223, 176);
+  background-color: rgb(116, 90, 90);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 #family {
-  margin: 30px 450px 30px;
+  margin: 30px 190px 30px;
   background-position: center;
   background-color: antiquewhite;
   height: 200px;
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   border: 3px solid rgb(202, 205, 202);
   border-color: wheat;
   box-shadow: 5px 5px 20px 5px #d89a7f;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 #fish {
-  margin: 30px 520px 30px;
+  margin: auto;
   background-position: center;
   background-color: antiquewhite;
   height: 200px;
@@ -133,7 +140,6 @@ h2 {
   border: 3px solid rgb(202, 205, 202);
   border-color: wheat;
   box-shadow: 5px 5px 20px 5px #d89a7f;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -141,7 +147,7 @@ h2 {
 }
 
 #cookieFish {
-  margin: 30px 480px 30px;
+  margin: auto;
   background-position: center;
   background-color: antiquewhite;
   height: 200px;
@@ -151,7 +157,6 @@ h2 {
   border: 3px solid rgb(202, 205, 202);
   border-color: wheat;
   box-shadow: 5px 5px 20px 5px #d89a7f;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -175,7 +180,7 @@ h2 {
 }
 
 #fishShirt {
-  margin: 30px 520px 30px;
+  margin: auto;
   background-position: center;
   background-color: antiquewhite;
   height: 200px;
@@ -193,7 +198,7 @@ h2 {
 
 
 p {
-  margin: auto;
+  margin: 30px 180px 30px;
   width: 50%;
   border: 3px solid rgb(202, 205, 202);
   padding: 10px;
@@ -204,22 +209,57 @@ p {
   border-spacing: 15px 50px;
   border-collapse: separate;
 }
+#storeForm{
+  margin: 30px 380px 30px;
+  width: 50%;
+  border: 3px solid rgb(202, 205, 202);
+  padding: 10px;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+  font-size: 40px;
+  color: rgb(222, 223, 176);
+  background-color: rgb(116, 90, 90);
+  border-spacing: 15px 50px;
+  border-collapse: separate;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
 
 button {
   transition: 350ms;
-  margin: 30px 400px 30px;
+  margin: 30px 20px 30px;
   height: 100px;
   width: 140px;
   overflow: auto;
   background-color: yellowgreen;
   color: white;
-  scrollbar-base-color: gold;
   font-family: sans-serif;
   padding: 10px;
+  display: inline-block;
+  text-align: center;
 }
 
+#buttonJoke{
+  border: 0;
+  margin: 30px 700px 30px;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #d89a7f;
+  background-image: linear-gradient(to top left,
+      rgba(0, 0, 0, .2),
+      rgba(0, 0, 0, .2) 30%,
+      rgba(0, 0, 0, 0));
+  border: 3px solid rgb(202, 205, 202);
+  border-color: wheat;
+  box-shadow: 5px 5px 20px 5px #d89a7f;
+}
 #buttonStyle {
   border: 0;
+  margin: 30px 300px 30px;
   padding: 0 20px;
   font-size: 1rem;
   text-align: center;
@@ -273,7 +313,7 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 30px 750px 30px;
+  margin: 30px 450px 30px;
   width: 39%;
   border: 3px solid rgb(202, 205, 202);
   padding: 20px;
@@ -285,7 +325,7 @@ footer {
 }
 
 #sales-table {
-  margin: 40px 8px 50px 20px;
+  margin: 30px 150px 30px;
   width: 50%;
   border: 3px solid rgb(202, 205, 202);
   padding: 10px;
@@ -343,7 +383,7 @@ footer {
 #sales-table tfoot {
   font-size: 13px;
   font-weight: bold;
-  color: #000000;
+  color: #f1f0e1;
   background: #A46E18;
   border-top: 1px solid #D5C83D;
 }

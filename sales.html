@@ -31,9 +31,6 @@
   <main>
     <h2>Our Sales Data</h2>
     <section>
-      <img id="cookieCutter"
-      src="https://raw.githubusercontent.com/codefellows/seattle-code-201d88/main/class-08/lab-b/image-assets/cutter.jpeg"
-      alt="Salmon Cookie Cutter">
       <p id="textScroll">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint recusandae magni labore
         commodi fuga nihil
         dolore odio consequatur quis eos? Quibusdam quod vitae, iste debitis recusandae molestiae laudantium repellat
@@ -57,13 +54,34 @@
         Animi fugiat aliquid blanditiis vero quisquam aspernatur, obcaecati magnam dolorem consequuntur adipisci natus
         dicta possimus ut excepturi quam sapiente, illo similique quia id officia voluptates tenetur? Autem animi
         alias dicta.</p>
-        <table id="sales-table"></table>
-        <button id = "buttonStyle" onclick="alert(' They tend to stick to their word....yup that just happened')"> Always trust a glue salesperson.</button>
       </section>
-    </main>
+      <table id="sales-table"></table>
+      <form id="storeForm">
+        <fieldset>
+          <legend>New Store Information</legend>
+          <br>
+        <label for="storeLocation">Location: </label>
+        <input id="storeLocation" type="text" name="storeLocation">
+        <br>
+        <label for="storeMinCust">Minimum Customer Per Hour: </label>
+        <input id="storeMinCust" type="text" name="storeMinCust">
+        <br>
+        <label for="storeMaxCust">Maximum Customer Per Hour: </label>
+        <input type="storeMaxCust" id="text" name="storeMaxCust">
+        <br>
+        <label for="storeAvgCookieSale">Store Average Cookie Sale: </label>
+        <input type="storeAvgCookieSale" id="text" name="storeAvgCookieSale">
+      </fieldset>
+      <button id="buttonStyle" type="submit">Submit</button>
+    </form>
+  </main>
 </body>
-<img id="CSS" src="https://media2.giphy.com/media/yYSSBtDgbbRzq/giphy.gif?cid=ecf05e47k4gxgm3b02oq6v2p02p9s4kwnw9h3ema1lfyu2cf&rid=giphy.gif&ct=g"
+<img id="CSS"
+src="https://media2.giphy.com/media/yYSSBtDgbbRzq/giphy.gif?cid=ecf05e47k4gxgm3b02oq6v2p02p9s4kwnw9h3ema1lfyu2cf&rid=giphy.gif&ct=g"
 alt="Peter struggling with blinds = CSS">
+<button id="buttonJoke" onclick="alert(' They tend to stick to their word....yup that just happened')"> Always
+  trust a glue salesperson.</button>
+
 <footer>
   <script src="js/app.js"></script>
   &copy;
