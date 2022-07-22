@@ -86,7 +86,7 @@ function makeHeader() {
     row1.appendChild(th16Elem);
     mainTableElem.appendChild(row1);
   }
-
+  
 }
 
 makeHeader();
@@ -108,10 +108,13 @@ function renderstore() {
 
 renderstore();
 
+
 // function to render bottom row of table 
 function makeFooter() {
   // make row give content append to table
   let tableFooterRowElement = document.createElement('tfoot');
+  // tableFooterRowElement.setAttribute('id','tfoot');
+  tableFooterRowElement.id = "tfoot";
   tableFooterRowElement.textContent = 'Total';
   mainTableElem.appendChild(tableFooterRowElement);
   // loop through hours and location 
@@ -141,7 +144,7 @@ function makeFooter() {
 makeFooter();
 
 function removeFooter(){
-  let parent = document.getElementsById("sales-table");
+  let parent = document.getElementById("sales-table");
   let child = document.getElementById("tfoot");
   parent.removeChild(child);
 }
@@ -155,7 +158,7 @@ function handleSubmit(event) {
   let avgCookieSale = +event.target.storeAvgCookieSale.value;
 
   let newStore = new Store(location, minCust, maxCust, avgCookieSale);
-
+  console.log(storeLocation);
   newStore.get();
   newStore.calculate();
   newStore.render();
@@ -163,7 +166,7 @@ function handleSubmit(event) {
   makeFooter();
 
   // HINT FOR YOUR LAB - remove your footer and recreate it
-
+  
   // resets input fields after submission
   mystoreForm.reset();
 }
